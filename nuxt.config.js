@@ -50,6 +50,7 @@ module.exports = {
   ** Axios module configuration
   */
   axios: {
+    baseURL: 'https://swapi.co/api'
     // See https://github.com/nuxt-community/axios-module#options
   },
 

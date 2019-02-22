@@ -11,9 +11,7 @@
 <script>
 export default {
   async asyncData({ app, params }) {
-    const response = await app.$axios.get(
-      `https://swapi.co/api/species/${params.id}`
-    )
+    const response = await app.$axios.get(`/species/${params.id}`)
     return {
       data: response.data
     }

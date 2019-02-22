@@ -41,7 +41,7 @@
 <script>
 export default {
   async asyncData({ app }) {
-    const response = await app.$axios.get('https://swapi.co/api/species')
+    const response = await app.$axios.get('/species')
     return {
       datas: response.data
     }
